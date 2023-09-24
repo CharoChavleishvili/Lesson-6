@@ -1,3 +1,14 @@
 .cosmos {
 	width: 100%;
+	position:relative;
+}
+.astronaut {
+	position: absolute;
+	width: 100px;
+	top: 300px;
+	animation:astronaut 5s infinite;
+}
+@keyframes astronaut {
+  from {top: 0px;}
+  to {top: 400px;}
 }
