@@ -6,9 +6,25 @@
 	position: absolute;
 	width: 100px;
 	top: 300px;
-	animation:astronaut 5s infinite;
+	animation:astronaut 15s infinite;
 }
 @keyframes astronaut {
   from {top: 0px;}
   to {top: 400px;}
+}
+.raket {
+	position: absolute;
+	width: 200px;
+	top: 600px;
+	animation:raket 10s infinite;
+	transition-duration: 0s;
+	rotate: 180deg;
+}
+
+@keyframes raket {
+  0%   {top: 100px; left: 500px}
+  25%  {top: 200px; left: 400px;}
+  50%  {top: 300px; left: 300px;}
+  75%  {top: 400px; left: 200px;}
+  100% {top: 500px;  left: 100px;}
 }
